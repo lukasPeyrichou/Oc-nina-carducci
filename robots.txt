@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ninacarducci.github.io/sitemap.xml
+Sitemap: https://lukaspeyrichou.github.io/Oc-nina-carducci/sitemap.xml
