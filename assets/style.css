@@ -69,7 +69,16 @@ body {
 
 .picture img {
 	width: 100%;
-
+	height: auto;
+}
+.carousel-item img {
+	height: auto;
+}
+/* Libellés lecteur d'écran des flèches du carrousel : texte clippé (invisible),
+   couleur contrastée pour éviter un faux positif de contraste (WAVE). */
+.carousel-control-prev .visually-hidden,
+.carousel-control-next .visually-hidden {
+	color: #000;
 }
 #about-me {
 	flex: 2
@@ -101,7 +110,7 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
@@ -147,7 +156,7 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
+	font-size: 2.5rem;
 }
 .quote__author {
 	font-family: Spectral;
